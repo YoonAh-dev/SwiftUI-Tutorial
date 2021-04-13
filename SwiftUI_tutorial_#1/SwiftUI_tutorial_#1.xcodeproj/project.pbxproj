@@ -13,6 +13,8 @@
 		ED76BE22262555B0002FE2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED76BE21262555B0002FE2DB /* Assets.xcassets */; };
 		ED76BE25262555B0002FE2DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED76BE24262555B0002FE2DB /* Preview Assets.xcassets */; };
 		ED76BE28262555B0002FE2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED76BE26262555B0002FE2DB /* LaunchScreen.storyboard */; };
+		EDC996AF2625610100993467 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC996AE2625610100993467 /* MyVstackView.swift */; };
+		EDC996B226257E8900993467 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC996B126257E8900993467 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED76BE24262555B0002FE2DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED76BE27262555B0002FE2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED76BE29262555B0002FE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC996AE2625610100993467 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		EDC996B126257E8900993467 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ED76BE26262555B0002FE2DB /* LaunchScreen.storyboard */,
 				ED76BE29262555B0002FE2DB /* Info.plist */,
 				ED76BE23262555B0002FE2DB /* Preview Content */,
+				EDC996AE2625610100993467 /* MyVstackView.swift */,
+				EDC996B126257E8900993467 /* MyTextView.swift */,
 			);
 			path = "SwiftUI_tutorial_#1";
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			files = (
 				ED76BE1C262555AF002FE2DB /* AppDelegate.swift in Sources */,
 				ED76BE1E262555AF002FE2DB /* SceneDelegate.swift in Sources */,
+				EDC996AF2625610100993467 /* MyVstackView.swift in Sources */,
 				ED76BE20262555AF002FE2DB /* ContentView.swift in Sources */,
+				EDC996B226257E8900993467 /* MyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
