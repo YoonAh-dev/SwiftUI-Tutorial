@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    // binding : 데이터의 상태를 서로 묶는 것 -> 뷰끼리 데이터 공유 가능
+    
+    
     // state : 값이 변화되면 알아서 값을 렌더링, 다시 계산해줌
     // @State 값의 변화를 감지 -> 뷰에 적용
     @State
@@ -17,9 +20,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    MyVstackView()
-                    MyVstackView()
-                    MyVstackView()
+                    // $ sign도 처음 봄 ??
+                    // 서브뷰한테 isActivated 전달
+                    MyVstackView(isActivated: $isActivated)
+                    MyVstackView(isActivated: $isActivated)
+                    MyVstackView(isActivated: $isActivated)
                 }
                 // isActivated 추가
                 .padding(isActivated ? 50 : 10)
@@ -38,7 +43,7 @@ struct ContentView: View {
                 // 네비게이션 버튼(링크)
                 // destination : 다음에 보여질 화면을 뜻함
                 NavigationLink(
-                    destination: MyTextView()) {
+                    destination: MyTextView(isActivated: $isActivated)) {
                     Text("네비게이션")
                         .fontWeight(.heavy)
                         .font(.system(size: 30))
