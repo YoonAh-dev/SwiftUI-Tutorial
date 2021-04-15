@@ -10,7 +10,7 @@
 |`#2`|**@State** | ☑️||[📚 #1](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_tutorial_%231)|
 |`#3`|**@Binding** |☑️ ||[📚 #1](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_tutorial_%231)|
 |`#4`|**@웹뷰띄우기** |☑️ ||[📚 #2](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_WebView_tutorial)|
-|`#5`|**@텍스트** | |||
+|`#5`|**@텍스트** |☑️ ||[📚 #3](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Text_tutorial)|
 |`#6`|**@이미지** | |||
 |`#7`|**@스택** | |||
 |`#8`|**@레이아웃 #1** || ||
