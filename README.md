@@ -12,7 +12,7 @@
 |`#4`|**@웹뷰띄우기** |☑️ ||[📚 #2](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_WebView_tutorial)|
 |`#5`|**@텍스트** |☑️ ||[📚 #3](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Text_tutorial)|
 |`#6`|**@이미지** |☑️ ||[📚 #4](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Image_tutorial)|
-|`#7`|**@스택** | |||
+|`#7`|**@스택** |☑️ ||[📚 #5](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Stacks_tutorial)|
 |`#8`|**@레이아웃 #1** || ||
 |`#9`|**@레이아웃 #2** || ||
 |`#10`|**@목록띄우기** | |||
