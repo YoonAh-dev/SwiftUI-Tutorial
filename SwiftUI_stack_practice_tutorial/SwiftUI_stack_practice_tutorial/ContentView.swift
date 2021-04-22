@@ -31,11 +31,10 @@ struct ContentView: View {
                     VStack {
                         MyProjectCard()
                         MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
+                        MyCard(icon: "tray.fill", title: "집청소", start: "10 AM", end: "11 AM", bgColor: .pink)
+                        MyCard(icon: "tray.fill", title: "운동하기", start: "10 AM", end: "11 AM", bgColor: .gray)
+                        MyCard(icon: "tray.fill", title: "마트 장보기", start: "10 AM", end: "11 AM", bgColor: .blue)
+                        MyCard(icon: "tray.fill", title: "게임하기", start: "10 AM", end: "11 AM", bgColor: .orange)
                     }
                     .padding()
                 }

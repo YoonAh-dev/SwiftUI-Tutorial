@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct MyProjectCard: View {
+    
+    // 알림창을 띄우고 싶으면 State 이용
+    // struct가 값으로 되어져있어서 struct안에서 변수를 선언할 수 있도록(값 변경 가능) 하려면
+    // state 선언
+    @State var shouldShowAlert: Bool = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Rectangle().frame(height: 0)
@@ -42,13 +48,22 @@ struct MyProjectCard: View {
                 
                 Spacer()
                 
-                Text("확인")
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding()
-                     .frame(width: 80)
-                    .background(Color.blue)
-                    .cornerRadius(20)
+                // 버튼의 액션과 버튼의 생김새
+                Button(action: {
+                    print("확인 버튼이 클릭되었다.")
+                    
+                    self.shouldShowAlert = true
+                }) {
+                    Text("확인")
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding()
+                         .frame(width: 80)
+                        .background(Color.blue)
+                        .cornerRadius(20)
+                }.alert(isPresented: $shouldShowAlert) {
+                    Alert(title: Text("알림창입니다!"))
+                }
             }
         }
         .padding(30)
