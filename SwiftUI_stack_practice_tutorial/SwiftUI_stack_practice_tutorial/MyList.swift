@@ -10,18 +10,18 @@ import SwiftUI
 struct MyList: View {
     // List == UIKit의 TableView, CollectionView
     
-    @Binding var isNavigationBarHidden: Bool
-    
-    init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
-        if #available(iOS 14.0, *) {
-            
-        } else {
-            UITableView.appearance().tableFooterView = UIView()
-        }
-        UITableView.appearance().separatorStyle = .none
-        
-        _isNavigationBarHidden = isNavigationBarHidden
-    }
+//    @Binding var isNavigationBarHidden: Bool
+//
+//    init(isNavigationBarHidden: Binding<Bool> = .constant(false)) {
+//        if #available(iOS 14.0, *) {
+//
+//        } else {
+//            UITableView.appearance().tableFooterView = UIView()
+//        }
+//        UITableView.appearance().separatorStyle = .none
+//
+//        _isNavigationBarHidden = isNavigationBarHidden
+//    }
     
     var body: some View {
 //        List {
@@ -62,10 +62,6 @@ struct MyList: View {
         }
         .listStyle(GroupedListStyle())
         .navigationBarTitle("내 목록")
-//        .navigationBarHidden(self.isNavigationBarHidden)
-        .onAppear {
-            self.isNavigationBarHidden = false
-        }
     }
 }
 

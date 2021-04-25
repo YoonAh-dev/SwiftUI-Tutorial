@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDCF2EA5263538D800532F4A /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF2EA4263538D800532F4A /* MyNavigationView.swift */; };
+		EDCF2EA826353EB400532F4A /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF2EA726353EB400532F4A /* MyProfile.swift */; };
 		EDD1558A2631923D009A0D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD155892631923D009A0D52 /* AppDelegate.swift */; };
 		EDD1558C2631923D009A0D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1558B2631923D009A0D52 /* SceneDelegate.swift */; };
 		EDD1558E2631923D009A0D52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1558D2631923D009A0D52 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDCF2EA4263538D800532F4A /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		EDCF2EA726353EB400532F4A /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 		EDD155862631923D009A0D52 /* SwiftUI_stack_practice_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_stack_practice_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD155892631923D009A0D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD1558B2631923D009A0D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				EDD155A12631995F009A0D52 /* MyBasicCard.swift */,
 				EDD155A42631AAD9009A0D52 /* MyCard.swift */,
 				EDD155A82631AF2C009A0D52 /* MyList.swift */,
+				EDCF2EA4263538D800532F4A /* MyNavigationView.swift */,
+				EDCF2EA726353EB400532F4A /* MyProfile.swift */,
 			);
 			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -158,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD1558A2631923D009A0D52 /* AppDelegate.swift in Sources */,
+				EDCF2EA826353EB400532F4A /* MyProfile.swift in Sources */,
 				EDD155A22631995F009A0D52 /* MyBasicCard.swift in Sources */,
+				EDCF2EA5263538D800532F4A /* MyNavigationView.swift in Sources */,
 				EDD1559F26319551009A0D52 /* MyProjectCard.swift in Sources */,
 				EDD1558C2631923D009A0D52 /* SceneDelegate.swift in Sources */,
 				EDD1558E2631923D009A0D52 /* ContentView.swift in Sources */,
