@@ -16,6 +16,7 @@
 		EDD1559F26319551009A0D52 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1559E26319551009A0D52 /* MyProjectCard.swift */; };
 		EDD155A22631995F009A0D52 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD155A12631995F009A0D52 /* MyBasicCard.swift */; };
 		EDD155A52631AAD9009A0D52 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD155A42631AAD9009A0D52 /* MyCard.swift */; };
+		EDD155A92631AF2C009A0D52 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD155A82631AF2C009A0D52 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EDD1559E26319551009A0D52 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		EDD155A12631995F009A0D52 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		EDD155A42631AAD9009A0D52 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		EDD155A82631AF2C009A0D52 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				EDD1559E26319551009A0D52 /* MyProjectCard.swift */,
 				EDD155A12631995F009A0D52 /* MyBasicCard.swift */,
 				EDD155A42631AAD9009A0D52 /* MyCard.swift */,
+				EDD155A82631AF2C009A0D52 /* MyList.swift */,
 			);
 			path = SwiftUI_stack_practice_tutorial;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				EDD1559F26319551009A0D52 /* MyProjectCard.swift in Sources */,
 				EDD1558C2631923D009A0D52 /* SceneDelegate.swift in Sources */,
 				EDD1558E2631923D009A0D52 /* ContentView.swift in Sources */,
+				EDD155A92631AF2C009A0D52 /* MyList.swift in Sources */,
 				EDD155A52631AAD9009A0D52 /* MyCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
