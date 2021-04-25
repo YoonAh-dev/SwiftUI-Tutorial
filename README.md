@@ -16,7 +16,7 @@
 |`#8`|**@레이아웃 #1** |☑️| |[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
 |`#9`|**@레이아웃 #2** |☑️| |[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
 |`#10`|**@목록띄우기** |☑️ ||[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
-|`#11`|**@네비게이션뷰** | |||
+|`#11`|**@네비게이션뷰** |☑️ ||[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
 |`#12`|**@지오메트리리더** | |||
 |`#13`|**@탭뷰** | |||
 |`#14`|**@커스텀탭뷰** || ||
