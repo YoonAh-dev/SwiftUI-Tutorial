@@ -20,7 +20,7 @@
 |`#12`|**@지오메트리리더** |☑️ ||[📚 #7](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_GeometryReader_tutorial)|
 |`#13`|**@탭뷰** |☑️ ||[📚 #8](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_TabView_tutorial)|
 |`#14`|**@커스텀탭뷰** |☑️| |[📚 #8](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_TabView_tutorial)|
-|`#15`|**@큐알코드리더** | |||
+|`#15`|**@큐알코드리더** |☑️ ||[📚 #9](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_QRCodeReader_tutorial)|
 |`#16`|**@버튼스타일** | |||
 |`#17`|**@텍스트필드** | |||
 |`#18`|**@토스트,팝업** | |||
