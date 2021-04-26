@@ -14,6 +14,8 @@
 		EDCCE9E02636534D00B51E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCE9DF2636534D00B51E40 /* Preview Assets.xcassets */; };
 		EDCCE9E32636534D00B51E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCE9E12636534D00B51E40 /* LaunchScreen.storyboard */; };
 		EDCCE9EC2636536400B51E40 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCE9EB2636536400B51E40 /* MyTabView.swift */; };
+		EDCCE9EF26365D7900B51E40 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCE9EE26365D7900B51E40 /* MyView.swift */; };
+		EDCCE9F226365F2C00B51E40 /* MyCustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCE9F126365F2C00B51E40 /* MyCustomTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EDCCE9E22636534D00B51E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCCE9E42636534D00B51E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCCE9EB2636536400B51E40 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		EDCCE9EE26365D7900B51E40 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		EDCCE9F126365F2C00B51E40 /* MyCustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				EDCCE9E42636534D00B51E40 /* Info.plist */,
 				EDCCE9DE2636534D00B51E40 /* Preview Content */,
 				EDCCE9EB2636536400B51E40 /* MyTabView.swift */,
+				EDCCE9EE26365D7900B51E40 /* MyView.swift */,
+				EDCCE9F126365F2C00B51E40 /* MyCustomTab.swift */,
 			);
 			path = SwiftUI_TabView_tutorial;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				EDCCE9D72636534C00B51E40 /* AppDelegate.swift in Sources */,
 				EDCCE9D92636534C00B51E40 /* SceneDelegate.swift in Sources */,
+				EDCCE9F226365F2C00B51E40 /* MyCustomTab.swift in Sources */,
+				EDCCE9EF26365D7900B51E40 /* MyView.swift in Sources */,
 				EDCCE9EC2636536400B51E40 /* MyTabView.swift in Sources */,
 				EDCCE9DB2636534C00B51E40 /* ContentView.swift in Sources */,
 			);
