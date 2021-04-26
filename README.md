@@ -18,6 +18,11 @@
 |`#10`|**@목록띄우기** |☑️ ||[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
 |`#11`|**@네비게이션뷰** |☑️ ||[📚 #6](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_stack_practice_tutorial)|
 |`#12`|**@지오메트리리더** |☑️ ||[📚 #7](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_GeometryReader_tutorial)|
-|`#13`|**@탭뷰** | |||
-|`#14`|**@커스텀탭뷰** || ||
-|`#15`|**@로또앱** | |||
+|`#13`|**@탭뷰** |☑️ ||[📚 #8](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_TabView_tutorial)|
+|`#14`|**@커스텀탭뷰** |☑️| |[📚 #8](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_TabView_tutorial)|
+|`#15`|**@큐알코드리더** | |||
+|`#16`|**@버튼스타일** | |||
+|`#17`|**@텍스트필드** | |||
+|`#18`|**@토스트,팝업** | |||
+|`#19`|**@피커뷰** | |||
+|`#20`|**@딥링크** | |||
