@@ -15,24 +15,17 @@ struct MyWebView: UIViewRepresentable {
     
     var urlToLoad: String
     
-    // UIView 만들기
     func makeUIView(context: Context) -> WKWebView {
-        // unwrapping
         guard let url = URL(string: self.urlToLoad) else {
             return WKWebView()
         }
         
-        // webView 인스턴스 생성
         let webview = WKWebView()
-        
-        // webView를 로드한다.
         webview.load(URLRequest(url: url))
         
         return webview
     }
-    
-    // 업데이트 UI View
-    // SwiftUI에서는 알아서 뷰를 다시 그린다(그 때 발동할 것이 업데이트 UI View)
+
     func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<MyWebView>) {
         
     }

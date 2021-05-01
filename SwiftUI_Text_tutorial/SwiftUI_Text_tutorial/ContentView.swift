@@ -25,34 +25,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
-                .tracking(1)
+            Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")    .tracking(1)
                 .font(.system(.body, design: .monospaced))
                 .fontWeight(.light)
                 .multilineTextAlignment(.leading)
-                .lineLimit(nil)
-                .lineSpacing(5)
-                .truncationMode(.tail)
-                
-                .shadow(color: .red, radius: 1.5, x: 0, y: 10)
-                
-                .padding(20)
-                .background(Color.yellow)
-                .cornerRadius(20)
-                
-                .padding()
-                .background(Color.green)
-                .cornerRadius(20)
-            
-            Text("안녕하세요!!")
-                .background(Color.gray)
-                .foregroundColor(Color.white)
-            
-            Text("오늘의 날짜입니다 : \(today, formatter: ContentView.dateFormat)")
-            
-            Text("참 혹은 거짓 : \(String(trueOfFalse))")
-            
-            Text("숫자입니다 : \(number)")
+
         }
     }
 }
