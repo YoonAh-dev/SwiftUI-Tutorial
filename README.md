@@ -24,5 +24,13 @@
 |`#16`|**@버튼스타일** |☑️ ||[📚 #10](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_ButtonStyle_tutorial)|
 |`#17`|**@텍스트필드** |☑️ ||[📚 #11](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_TextField_tutorial)|
 |`#18`|**@토스트,팝업** |☑️ ||[📚 #12](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_ToastPopUp_tutorial)|
-|`#19`|**@피커뷰** | |||
+|`#19`|**@피커뷰** |☑️ ||[📚 #13](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Picker_tutorial)|
 |`#20`|**@딥링크** | |||
+|`#21`|**@메뉴** | |||
+|`#22`|**@LazyVGrid** | |||
+|`#23`|**@Redux** | |||
+|`#24`|**@Alamofire Combine** | |||
+|`#25`|**@RefreshControl** | |||
+|`#26`|**@무한스크롤페이징** | |||
+|`#27`|**@뷰 모디파이어** | |||
+|`#28`|**@다크모드지원** | |||
