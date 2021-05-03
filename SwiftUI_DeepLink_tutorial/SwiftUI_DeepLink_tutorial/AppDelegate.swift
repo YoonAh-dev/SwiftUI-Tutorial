@@ -9,6 +9,13 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    // @State var selectedTab = 0
+    // 따로 AppDelegate 역할을 하는 파일을 가지게 된다면
+    // TabView(selection: $selectedTab,
+    //         content: {
+    //              Text("Tab Content 1").tabItem { Text("Tab Label 1") }.tag(1)
+    //              Text("Tab Content 2").tabItem { Text("Tab Label 2") }.tag(2) })
 
 
 
