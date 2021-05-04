@@ -27,8 +27,8 @@
 |`#19`|**@피커뷰** |☑️ ||[📚 #13](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Picker_tutorial)|
 |`#20`|**@딥링크** |☑️ ||[📚 #14](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_deeplink_tutorial%232)|
 |`#21`|**@메뉴** |☑️ ||[📚 #15](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Menu_tutorial)|
-|`#22`|**@LazyVGrid** | |||
-|`#23`|**@Redux** | |||
+|`#22`|**@LazyVGrid** |☑️ ||[📚 #16](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_lazyVGrid_tutorial)|
+|`#23`|**@Redux** | ☑️||[📚 #17](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Redux_tutorial)|
 |`#24`|**@Alamofire Combine** | |||
 |`#25`|**@RefreshControl** | |||
 |`#26`|**@무한스크롤페이징** | |||
