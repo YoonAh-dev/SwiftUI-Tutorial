@@ -14,7 +14,7 @@ struct SwiftUI_lazyVGrid_tutorialApp: App {
     var body: some Scene {
         //root
         WindowGroup {
-            ContentView()
+            Example_ContentView()
         }
     }
 }

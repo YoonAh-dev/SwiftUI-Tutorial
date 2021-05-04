@@ -14,6 +14,7 @@ struct VGridView: View {
             GridItem(.adaptive(minimum: 200))
         ], content: {
             ForEach(1...100, id: \.self, content: { id in
+                // RoundedRectangle(cornerRadius: 25.0)
                 Rectangle()
                     .foregroundColor(Color.init(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)))
                     .frame(height: 200)
