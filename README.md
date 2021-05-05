@@ -29,7 +29,7 @@
 |`#21`|**@메뉴** |☑️ ||[📚 #15](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Menu_tutorial)|
 |`#22`|**@LazyVGrid** |☑️ ||[📚 #16](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_lazyVGrid_tutorial)|
 |`#23`|**@Redux** | ☑️||[📚 #17](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Redux_tutorial)|
-|`#24`|**@Alamofire Combine** | |||
+|`#24`|**@Alamofire Combine** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)|
 |`#25`|**@RefreshControl** | |||
 |`#26`|**@무한스크롤페이징** | |||
 |`#27`|**@뷰 모디파이어** | |||
