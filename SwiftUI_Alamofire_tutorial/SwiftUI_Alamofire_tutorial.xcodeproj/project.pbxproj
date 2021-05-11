@@ -17,6 +17,7 @@
 		EDB990862642C9AC00669148 /* RandomUser+ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB990852642C9AC00669148 /* RandomUser+ResponseData.swift */; };
 		EDB990882642CCA700669148 /* RandomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB990872642CCA700669148 /* RandomUserViewModel.swift */; };
 		EDCA3BC6264966A9008CEFCF /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = EDCA3BC5264966A9008CEFCF /* Introspect */; };
+		EDD211E9264A26990073CEDD /* RandomUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD211E8264A26990073CEDD /* RandomUserRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EDB9907B2642BF0600669148 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		EDB990852642C9AC00669148 /* RandomUser+ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+ResponseData.swift"; sourceTree = "<group>"; };
 		EDB990872642CCA700669148 /* RandomUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewModel.swift; sourceTree = "<group>"; };
+		EDD211E8264A26990073CEDD /* RandomUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		EDB9906B2642BED400669148 /* SwiftUI_Alamofire_tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				EDD211E7264A267E0073CEDD /* API */,
 				EDB990842642C99300669148 /* Data */,
 				EDB9907D2642C3A700669148 /* UI */,
 				EDB9906C2642BED400669148 /* SwiftUI_Alamofire_tutorialApp.swift */,
@@ -98,6 +101,14 @@
 				EDB990872642CCA700669148 /* RandomUserViewModel.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EDD211E7264A267E0073CEDD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EDD211E8264A26990073CEDD /* RandomUserRouter.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			files = (
 				EDB990862642C9AC00669148 /* RandomUser+ResponseData.swift in Sources */,
 				EDB9906F2642BED400669148 /* ContentView.swift in Sources */,
+				EDD211E9264A26990073CEDD /* RandomUserRouter.swift in Sources */,
 				EDB9906D2642BED400669148 /* SwiftUI_Alamofire_tutorialApp.swift in Sources */,
 				EDB9907C2642BF0600669148 /* CellView.swift in Sources */,
 				EDB990882642CCA700669148 /* RandomUserViewModel.swift in Sources */,

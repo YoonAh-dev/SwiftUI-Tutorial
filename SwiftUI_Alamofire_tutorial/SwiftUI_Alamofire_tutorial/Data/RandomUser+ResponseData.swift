@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RandomUser: Codable, Identifiable {
+struct RandomUser: Codable, Identifiable, CustomStringConvertible {
     var id = UUID()
     var name: Name
     var photo: Photo
@@ -26,6 +26,18 @@ struct RandomUser: Codable, Identifiable {
         get {
             URL(string: photo.medium)!
         }
+    }
+    
+    var description: String {
+        return name.description
+    }
+}
+
+// 같은지 여부 판단가능
+// 비교를 위한 Equable
+extension RandomUser: Equatable {
+    static func == (lhs: RandomUser, rhs: RandomUser) -> Bool {
+        return lhs.id == rhs.id
     }
 }
 
@@ -57,7 +69,7 @@ struct Photo: Codable {
     }
 }
 
-struct Info: Codable {
+struct Info: Codable, CustomStringConvertible {
     var seed: String
     var resultsCount: Int
     var page: Int
@@ -68,6 +80,10 @@ struct Info: Codable {
         case resultsCount = "results"
         case page = "page"
         case version = "version"
+    }
+    
+    var description: String {
+        return "seed: \(seed) / version: \(version) / resultCount: \(resultsCount) / page: \(page)"
     }
 }
 

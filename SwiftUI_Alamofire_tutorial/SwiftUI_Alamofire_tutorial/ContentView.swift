@@ -36,6 +36,14 @@ class RefreshControlHelper {
     }
 }
 
+struct MyBottomProgressView: View {
+    var body: some View {
+        ProgressView()
+            .progressViewStyle(CircularProgressViewStyle(tint: .pink))
+            .scaleEffect(1.7, anchor: .center)
+    }
+}
+
 struct ContentView: View {
     @ObservedObject var randomUserViewModel = RandomUserViewModel()
     
@@ -44,17 +52,30 @@ struct ContentView: View {
     var body: some View {
         // 각각의 아이템들을 ForEach문처럼 가져와서 뷰를 그림
         List(randomUserViewModel.randomUsers) { randomUser in
+            // RowView가 나타날때 onAppear가 시작하는데 저걸 확인
             CellView(randomUser)
+                .onAppear { fetchMoreData(randomUser) }
          }
         .introspectTableView{ self.configureRefreshControl($0) }
 //        .introspectTableView { tableView in
 //            self.configureRefreshControl(tableView)
 //        }
-    }
+        // 데이터 로딩 중이라면
+        if randomUserViewModel.isLoading {
+            MyBottomProgressView()
+        }
+        
+    } //body
 }
 
 // MARK: - Helper Methods
 extension ContentView {
+    fileprivate func fetchMoreData(_ randomUser: RandomUser) {
+        if self.randomUserViewModel.randomUsers.last == randomUser {
+            randomUserViewModel.fetchMoreActionSubject.send()
+        }
+    }
+    
     fileprivate func configureRefreshControl(_ tableView: UITableView) {
         print(#fileID, #function, #line, "")
         // 이 안에 있는 건 UIKit
