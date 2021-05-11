@@ -30,7 +30,7 @@
 |`#22`|**@LazyVGrid** |☑️ ||[📚 #16](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_lazyVGrid_tutorial)|
 |`#23`|**@Redux** | ☑️||[📚 #17](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Redux_tutorial)|
 |`#24`|**@Alamofire Combine** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)|
-|`#25`|**@RefreshControl** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)
-|`#26`|**@무한스크롤페이징** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)
-|`#27`|**@뷰 모디파이어** | |||
-|`#28`|**@다크모드지원** | |||
+|`#25`|**@RefreshControl** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)|
+|`#26`|**@무한스크롤페이징** |☑️ ||[📚 #18](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Alamofire_tutorial)|
+|`#27`|**@뷰 모디파이어** |☑️ ||[📚 #19](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_ViewModifier_tutorial)|
+|`#28`|**@다크모드지원** |☑️ ||[📚 #20](https://github.com/YoonAh-dev/SwiftUI-Tutorial/tree/main/SwiftUI_Darkmode_tutorial)|
